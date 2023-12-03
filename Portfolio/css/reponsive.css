@@ -1,0 +1,33 @@
+@media(max-width:640px){ 
+    html{font-size: 10px;}
+
+    label{
+        cursor: pointer;
+    }
+    
+    .nav-btn{
+        display: inline-block;
+    }
+    header {
+        flex-direction:column ;
+        height: max-content;
+        padding: 2%;
+    }
+    .nav-link{
+        flex-direction: column;
+    }
+
+    #nav-check:not(:checked)~.nav-link{
+    height: 0px;
+    overflow: hidden;
+    }
+
+    #nav-check:checked~.nav-link{
+    height: auto;
+    overflow: auto;
+    }
+}
+
+@media((min-width:640px) and (max-width:1007px)){
+    html{font-size: 12px;}
+}

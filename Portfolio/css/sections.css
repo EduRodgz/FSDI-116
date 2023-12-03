@@ -1,0 +1,16 @@
+.img-container {
+    width: 40%;
+    background-color: red;
+    height: 300px;
+}
+
+.description-container{
+    width: 60%;
+    background-color: blue;
+    height: 300px;
+}
+
+.about-section{
+    display: flex;
+    flex-direction: row;
+}
